@@ -87,7 +87,7 @@ class Heap:
 		self.siftUp(self.length -1, self.heap)
 		
 	def swap(self, i, j, array):
-		array[i], array[j] == array[j], array[i]
+		array[i], array[j] = array[j], array[i]
 	
 def MAX_HEAP_FUNC(a, b):
 	return a > b
